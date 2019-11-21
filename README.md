@@ -8,6 +8,8 @@ Check out the [report](Alligator%20Inspired%20Robot%20Report.pdf) to know more.
 ## Instructions to run the project:
 Install V-REP and ROS and make sure that the `vrep-ros-interface` is working. Put the `alligator.lua` file in the V-REP path such that it is accessible in V-REP. The folder `bio-inspired-robotics` is a ROS package. Put it in the correct place and make sure `catkin_make` runs successfully. Now load `alligator.ttt` in V-REP and start the simulation. Start ROS and in a terminal type `rosrun bio-inspired-robotics alligator-controller.py`.
 
+![](screenshot.png)
+
 Contributers:
 Arya Das
 Shubham Chouksey
